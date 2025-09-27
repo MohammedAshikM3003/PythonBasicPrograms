@@ -1,0 +1,10 @@
+s={1,2,3,4,5,5,None," ",10,0}
+print(s)
+s.add(6)
+print(s)
+s.remove(3)
+print(s)
+s.discard(1)
+print(s)
+s.pop()
+print(s)

@@ -1,0 +1,17 @@
+l=[1,2,3,4,5,6]
+e=0
+o=0
+ce=0
+co=0
+for i in l:
+    if(i%2==0):
+        e=e+i
+        ce=ce+1
+    else:
+        o=o+i
+        co=co+1
+print("Count of even numbers : ",ce)
+print("Sum of even numbers : ",e)
+print()
+print("Count of odd numbers : ",co)
+print("Sum of odd numbers : ",o)

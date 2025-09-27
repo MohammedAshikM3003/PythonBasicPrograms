@@ -1,0 +1,10 @@
+s={1,2,3,4,5}
+t={4,5,6,7,8}
+print(s.union(t))
+print(s.intersection(t))
+print(s.difference(t))
+print(s.symmetric_difference(t))
+m={}
+print(type(m))
+n={1,}
+print(type(n))

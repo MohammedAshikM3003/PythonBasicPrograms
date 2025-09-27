@@ -1,0 +1,14 @@
+s={1,2,3,4}
+t={5,6,7}
+s.add(5)
+print(s)
+s.update(t)
+print(s)
+s.update({20,10})
+s.update({90:80,70:60})
+print(s)
+#s.remove(106)
+s.pop()
+s.discard(106)
+s.clear()
+print(s)
