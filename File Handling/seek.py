@@ -1,0 +1,5 @@
+f=open('D:\\Python\\File Handling\\files\\test.txt','r')
+print(f.read(3))
+#f.seek(0)
+print(f.read(3))
+f.close()
